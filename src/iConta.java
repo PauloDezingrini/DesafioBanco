@@ -7,4 +7,6 @@ public interface iConta {
     void transferir(double valor, Conta contaDestino);
 
     void extrato();
+
+    void rendimento();
 }
