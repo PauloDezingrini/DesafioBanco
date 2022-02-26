@@ -35,7 +35,10 @@ public abstract class Conta implements iConta {
 
     @Override
     public void extrato() {
-
+        System.out.printf("Titular:\t%s\n",this.titular.getNome());
+        System.out.printf("Agência:\t%d\n",this.agencia);
+        System.out.printf("Número da conta:\t%d\n",this.numero);
+        System.out.printf("Saldo:\t%.2f\n",this.saldo);
     }
 
     public int getAgencia() {
